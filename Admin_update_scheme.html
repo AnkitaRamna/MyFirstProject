@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upade Scheme Admin side</title>
+</head>
+<body>
+    <div>
+        <label for="sname"><b>Scheme Name : </b></label>
+        <input type="text" placeholder="Enter scheme name" name="sname" required>
+        
+        <label for="age"><b>Age : </b></label>
+        <input type="number" placeholder="Enter Age" name="age" required>
+    
+        <label for="TIncome"><b>Total Income : </b></label>
+        <input type="text" placeholder="Enter Number" name="number" required>
+
+        <label for="marks"><b>Percentage / SPI / CPI / CGPA : </b></label>
+        <input type="number" placeholder="Enter Your Marks" name="marks" required>
+
+<!-- DO not applicable in admin side it only applicable user side beacuse admin can select multiple 
+     category but user can select only one of them. 
+<label> Select Category : </label>  
+<select>  
+<option value = "GEN">GENRAL(OPEN)</option>  
+<option value = "EWS">EWS</option>  
+<option value = "OBC"> OBC</option>  
+<option value = "SC">SC</option>
+<option value = "ST"> ST</option>  
+</select>  -->
+
+<label> Select Category : </label>  
+
+<input type="checkbox" id="GEN" name="GEN" value="GEN">
+<label for="category"> GENRAL(OPEN)</label><br>
+<input type="checkbox" id="EWS" name="EWS" value="GEN">
+<label for="category"> EWS </label><br>
+<input type="checkbox" id="OBC" name="OBC" value="GEN">
+<label for="category"> OBC </label><br>
+<input type="checkbox" id="SC" name="SC" value="GEN">
+<label for="category"> SC </label><br>
+<input type="checkbox" id="ST" name="ST" value="GEN">
+<label for="category"> ST </label><br>
+
+        <button type="submit"> Add criteria </button>
+        <button type="submit"> Remove criteria </button>
+        <button type="submit"> Submit Update </button>
+
+        <!-- Add perameter by and remove perameter by admin how its work and their logic  -->
+
+    
+        
+</body>
+</html>
